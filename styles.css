@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+#app {
+    text-align: center;
+}
+
+.vid-container {
+    margin-bottom: 20px;
+}
+
+.sound-picker button, #time-select button, .play {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.time-display {
+    font-size: 24px;
+    margin: 20px 0;
+}
